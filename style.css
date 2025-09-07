@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 1px;
+}
+
+#logo{
+    color: red;
+    font-weight: bold;
+}
+
+#input{
+    width: 500px;
+    border: 2px solid red;
+
+}
+
+#my-card{
+    border-radius: 10px;
+    border: 2px solid red;
+    padding: 10px;
+    background-color: rgba(255, 192, 203, 0.229);   
+}
+
+#card-img,
+#modalImage{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.logo-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#input:focus{
+    box-shadow: 0 0 5px 2px red;
+    border: 2px solid palevioletred;
+    background-color: rgba(255, 192, 203, 0.229);
+
+}
+
+.li{
+    font-size: 17px;
+}
+
+.dropDownItems{
+    font-size: 17px;
+    color: red;
+    transition: 0.3s;
+}
+
+.dropDownItems:hover{
+    background-color: rgb(240, 0, 80);
+    color: white;
+}
+
+.dropDownItems:active{
+    transform: scale(0.95);
+    color: white;
+    background-color: red;
+}
+
+.buttons{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    transition: 0.3s;
+}
+
+.buttons:active{
+    box-shadow: none;
+    transform: scale(0.95);
+
+}
+
+.buttons:focus{
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    box-shadow: none;
+}
+
+.buttons:hover{
+    background-color: red;
+    color: white;
+
+}
+
+#drop-div{
+    background-color: white;
+    border: 2px solid red;
+}
+
+.dim{
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.h6{
+    color: red;
+}
+
+.mdl-heading{
+    color: red;
+}
+
+#modal{
+    border-radius: 10px;
+    border: 3px solid red;
+    padding: 10px;
+}
+
+.modal-p{
+    font-size: 18px;
+}
+
+@media screen and (max-width : 1024px) {
+    #input {
+        width: 300px;
+    }
+}
+@media screen and (max-width : 768px) {
+    #input {
+        width: 650px;
+    }
+    .modal-p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 425px) {
+    #input {
+        width: 300px;
+    }
+    .modal-p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 375px) {
+    #input {
+        width: 260px;
+    }
+    .modal-p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 320px) {
+    #input {
+        width: 200px;
+    }
+    .modal-p{
+        font-size: 15px;
+    }
+}
